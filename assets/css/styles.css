@@ -22,7 +22,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 15px 0px;
-    
+    overflow: hidden;
 }
 
 .header-main .inner-logo a{
@@ -215,7 +215,7 @@
 
 .section-2 .inner-box{
     width: calc(100%/3 - 20px);
-    height: 100%;
+    height: fit-content;
     aspect-ratio: 4/3;
     position: relative;
     overflow: hidden;
@@ -680,7 +680,7 @@
 
     /* Header */
     .header .header-main{
-
+        overflow: hidden;
     }
     /* End Header */
     /* Section 1 */
